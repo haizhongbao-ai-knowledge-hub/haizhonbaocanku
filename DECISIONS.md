@@ -1,0 +1,51 @@
+# Decisions
+
+Use this file to record important project decisions so GPT and Codex do not repeat the same discussion.
+
+## Decision Log
+
+### 2026-07-26 - Use Markdown files as shared project memory
+
+**Decision:** Keep project goals, tasks, rules, and handoffs in versioned Markdown files.
+
+**Why:** ChatGPT and Codex histories are separate, and different computers may have different local state. A Git-synced project folder gives every tool the same source of truth.
+
+**Impact:** Each session should update the project files after planning or execution.
+
+### 2026-07-26 - Use three-party confirmation before Codex execution
+
+**Decision:** For important work, use a three-party confirmation flow before Codex executes.
+
+**Flow:**
+
+1. 老板和 ChatGPT 讨论并确定工作方向。
+2. ChatGPT 高效梳理出 Codex 能精准理解的大纲、注意要点、执行边界和风险。
+3. Codex 收集交接内容，并按 Codex 执行体系做二次复核。
+4. 老板把 Codex 复核结果再发给 ChatGPT 确认。
+5. 三方确认后，Codex 进入执行。
+
+**Why:** This reduces misunderstanding between planning and execution, keeps the boss in control, and lets ChatGPT focus on strategy while Codex focuses on implementation.
+
+**Impact:** Important tasks should not jump directly from ChatGPT discussion into Codex execution unless the boss explicitly says the task is simple enough to skip the full confirmation loop.
+
+### 2026-07-26 - Position 海中宝 AI as an enterprise AI operating system
+
+**Decision:** The project direction is to build 海中宝's enterprise AI operating system, not a single isolated AI tool.
+
+**Why:** The long-term goal is to combine GPT, Codex, RPA, and enterprise data into an assistant system that understands the business, supports老板 strategy, analyzes operations, executes repeatable work, and improves over time.
+
+**Impact:** Development should start from small MVPs with clear business value, then expand into a larger enterprise AI brain.
+
+### 2026-07-26 - Upgrade three-party synchronization to constitution-level rule
+
+**Decision:** 海中宝 AI 项目采用“老板 + GPT + Codex”三方同步确认机制，并将其纳入宪法级规则。
+
+**Why:** 重要事项如果只在老板和 GPT、老板和 Codex、或 GPT 和 Codex 之间单边确认，容易造成信息断层和错误执行。三方同步机制确保老板知道、GPT 理解、Codex 同步后再进入执行。
+
+**Impact:** 后续所有重要项目必须建立同步确认记录。没有正式同步文件时，Codex 将任务标记为【待同步】或【待确认】，不得开发。
+
+**Canonical files:**
+
+- `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
+- `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
+- `sync_records/三方同步确认记录模板.md`
