@@ -301,6 +301,55 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Give file 01 to the new Codex account first, then give file 02 to the new GPT account, then verify both with file 03.
 
+### 2026-07-27 - Central brain V1 accepted and operating policies created
+
+**From:** Codex
+
+**Summary:** GPT confirmed 海中宝AI中央大脑 V1.0 foundation as accepted. Created four operating policy files for runtime, identity/permissions, change management, and disaster recovery drills.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑运行协议_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI身份权限管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI变更管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI灾备恢复演练方案_V1.0.md`
+- `海中宝AI项目状态总览.md`
+- `TASKS.md`
+- `KNOWLEDGE_HUB.md`
+
+**Next recommended step:** Enter first-batch AI expert construction: 战略AI, 经营数据AI, 财务战略AI.
+
+### 2026-07-27 - Central brain V2 first-stage landing files created
+
+**From:** Codex
+
+**Summary:** Integrated GPT's three central-brain upgrade proposals into one V2.0 first-stage landing package. The project now has a central entry protocol, AI expert identity/permission table, AI status center, automatic sync mechanism design, sync-notice script, and V2.0 stage completion report.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央入口协议_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI状态管理表_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI自动同步机制设计_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑V2.0建设报告.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑V2.0阶段完成报告.md`
+- `sync_records/三方同步确认记录/三方同步确认记录模板.md`
+- `scripts/New-AiSyncNotice.ps1`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `README.md`
+- `AGENTS.md`
+- `TASKS.md`
+
+**Open questions:**
+
+- Should the first batch of AI experts be 战略AI, 经营数据AI, 财务战略AI?
+- Should the first-stage sync method stay semi-automatic before building a work-group robot?
+- Should the central entry protocol and stage report be uploaded into ChatGPT project materials?
+
+**Next recommended step:** Commit, push to GitHub, generate local backup, then let GPT review the V2.0 stage completion report.
+
 ## Template
 
 ### YYYY-MM-DD

@@ -11,16 +11,19 @@
 
 ## 每次开始工作先读
 
-1. `PROJECT_BRIEF.md`
+1. `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央入口协议_V1.0.md`
 2. `海中宝AI项目状态总览.md`
 3. `KNOWLEDGE_HUB.md`
-4. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
-5. `knowledge-hub/UNCONFIRMED_IDEAS.md`
-6. `OPERATING_MODEL.md`
-7. `COLLAB_PROTOCOL.md`
-8. `TASKS.md`
-9. `AGENTS.md`
-10. `HANDOFF.md`
+4. `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+5. `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+6. `PROJECT_BRIEF.md`
+7. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+8. `knowledge-hub/UNCONFIRMED_IDEAS.md`
+9. `OPERATING_MODEL.md`
+10. `COLLAB_PROTOCOL.md`
+11. `TASKS.md`
+12. `AGENTS.md`
+13. `HANDOFF.md`
 
 ## 日常工作流
 
@@ -47,3 +50,4 @@
 - 聊天记录摘要进入 `knowledge-hub/CHAT_RECORDS_INDEX.md`。
 - GitHub 仓库是多电脑同步中心：`https://github.com/haizhongbao-ai-knowledge-hub/haizhonbaocanku`。
 - 老板用任意类似“AI项目进展”“海中宝AI项目情况”“现在做到哪一步”的表达时，AI 应读取 `海中宝AI项目状态总览.md` 并进入老板汇报模式。
+- 新GPT、新Codex、新AI专家、新电脑或新账号接入时，第一步读取 `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央入口协议_V1.0.md`。

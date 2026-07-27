@@ -18,17 +18,20 @@ When老板 asks about project status, progress, current stage, pending items, or
 
 Before substantial work, read:
 
-1. `KNOWLEDGE_HUB.md`
+1. `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央入口协议_V1.0.md`
 2. `海中宝AI项目状态总览.md`
-3. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
-4. `knowledge-hub/UNCONFIRMED_IDEAS.md`
-5. `knowledge-hub/CODEX_MEMORY_RULES.md`
-6. `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
-7. `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
-8. `PROJECT_BRIEF.md`
-9. `TASKS.md`
-10. `DECISIONS.md`
-11. `HANDOFF.md`
+3. `KNOWLEDGE_HUB.md`
+4. `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+5. `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+6. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+7. `knowledge-hub/UNCONFIRMED_IDEAS.md`
+8. `knowledge-hub/CODEX_MEMORY_RULES.md`
+9. `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
+10. `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
+11. `PROJECT_BRIEF.md`
+12. `TASKS.md`
+13. `DECISIONS.md`
+14. `HANDOFF.md`
 
 1. Understand and restate the business goal.
 2. Produce a technical review.
