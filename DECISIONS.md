@@ -49,3 +49,24 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
 - `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
 - `sync_records/三方同步确认记录模板.md`
+
+### 2026-07-27 - Central brain V2 first stage accepted
+
+**Decision:** 海中宝AI中央大脑V2.0第一阶段验收通过。
+
+**Confirmed by GPT:**
+
+1. 第一批AI专家确定建设：AI-001 战略AI、AI-002 经营数据AI、AI-003 财务战略AI。
+2. 暂不扩展更多AI。
+3. 同步机制采用半自动三方同步机制V1.0。
+4. ChatGPT项目资料接入分为一级和二级资料。
+5. GitHub仍作为正式知识源。
+6. 下一阶段重点进入老板经营日报MVP，同时完善老板驾驶舱V2。
+
+**Impact:** Codex进入老板经营日报MVP和老板驾驶舱V2执行评估阶段。第一批AI专家进入岗位卡、输入输出模板和工作流程建设准备。
+
+**Canonical files:**
+
+- `sync_records/三方同步确认记录/2026-07-27_中央大脑V2第一阶段验收通过.md`
+- `接入包_给GPT和Codex/04_ChatGPT项目资料接入清单.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
