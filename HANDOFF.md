@@ -213,6 +213,21 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** On the home computer, clone the GitHub repository, open Codex, and ask it to read the core project files listed in `家里电脑接入说明.md`.
 
+### 2026-07-27 - One-file AI brain onboarding created
+
+**From:** Codex
+
+**Summary:** Created a single onboarding file that can be uploaded or copied to another GPT/Codex account so it can understand the 海中宝AI project quickly.
+
+**Changed files:**
+
+- `海中宝AI一键接入大脑文件.md`
+- `README.md`
+- `TASKS.md`
+- `HANDOFF.md`
+
+**Next recommended step:** Give `海中宝AI一键接入大脑文件.md` to the home computer's GPT/Codex account, then clone the GitHub repository for full project files.
+
 ## Template
 
 ### YYYY-MM-DD
