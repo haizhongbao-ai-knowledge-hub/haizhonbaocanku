@@ -14,18 +14,21 @@ Codex must understand business goals before designing or building technical solu
 
 For important work, do not immediately write code.
 
+When老板 asks about project status, progress, current stage, pending items, or similar wording, enter 海中宝AI项目状态汇报模式 and read `海中宝AI项目状态总览.md` first.
+
 Before substantial work, read:
 
 1. `KNOWLEDGE_HUB.md`
-2. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
-3. `knowledge-hub/UNCONFIRMED_IDEAS.md`
-4. `knowledge-hub/CODEX_MEMORY_RULES.md`
-5. `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
-6. `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
-7. `PROJECT_BRIEF.md`
-8. `TASKS.md`
-9. `DECISIONS.md`
-10. `HANDOFF.md`
+2. `海中宝AI项目状态总览.md`
+3. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+4. `knowledge-hub/UNCONFIRMED_IDEAS.md`
+5. `knowledge-hub/CODEX_MEMORY_RULES.md`
+6. `architecture/海中宝AI大脑架构设计_V1.0_最终确认版.md`
+7. `architecture/海中宝GPT-Codex协同规则_V1.1_最终确认版.md`
+8. `PROJECT_BRIEF.md`
+9. `TASKS.md`
+10. `DECISIONS.md`
+11. `HANDOFF.md`
 
 1. Understand and restate the business goal.
 2. Produce a technical review.

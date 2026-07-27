@@ -12,14 +12,15 @@
 ## 每次开始工作先读
 
 1. `PROJECT_BRIEF.md`
-2. `KNOWLEDGE_HUB.md`
-3. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
-4. `knowledge-hub/UNCONFIRMED_IDEAS.md`
-5. `OPERATING_MODEL.md`
-6. `COLLAB_PROTOCOL.md`
-7. `TASKS.md`
-8. `AGENTS.md`
-9. `HANDOFF.md`
+2. `海中宝AI项目状态总览.md`
+3. `KNOWLEDGE_HUB.md`
+4. `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+5. `knowledge-hub/UNCONFIRMED_IDEAS.md`
+6. `OPERATING_MODEL.md`
+7. `COLLAB_PROTOCOL.md`
+8. `TASKS.md`
+9. `AGENTS.md`
+10. `HANDOFF.md`
 
 ## 日常工作流
 
@@ -44,3 +45,4 @@
 - 未确认想法进入 `knowledge-hub/UNCONFIRMED_IDEAS.md`。
 - 聊天记录摘要进入 `knowledge-hub/CHAT_RECORDS_INDEX.md`。
 - GitHub 仓库是多电脑同步中心：`https://github.com/haizhongbao-ai-knowledge-hub/haizhonbaocanku`。
+- 老板用任意类似“AI项目进展”“海中宝AI项目情况”“现在做到哪一步”的表达时，AI 应读取 `海中宝AI项目状态总览.md` 并进入老板汇报模式。

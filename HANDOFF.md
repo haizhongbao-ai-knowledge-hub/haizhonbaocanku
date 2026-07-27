@@ -261,6 +261,29 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Decide the first batch of AI experts to actually implement, then produce execution evaluations for 老板驾驶舱 MVP and AI工作群方案.
 
+### 2026-07-27 - Project status management mechanism added
+
+**From:** Codex
+
+**Summary:** Added the 海中宝AI project status management system so老板 can ask about progress using natural wording and all AI agents enter the same status-report mode.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/06_项目状态管理/海中宝AI项目状态管理制度_V1.0.md`
+- `海中宝AI项目状态总览.md`
+- `sync_records/AI项目同步记录模板.md`
+- `KNOWLEDGE_HUB.md`
+- `README.md`
+- `AGENTS.md`
+- `老板驾驶舱.md`
+- `海中宝AI一键接入大脑文件.md`
+- `项目固定入口与进度.md`
+- `TASKS.md`
+
+**Rule added:** Boss status questions do not need a fixed passphrase. Similar requests such as “AI项目进展”, “现在做到哪一步了”, or “有哪些事情没完善” should trigger `海中宝AI项目状态总览.md`.
+
+**Next recommended step:** Commit locally, generate a backup, and retry GitHub push when network allows.
+
 ## Template
 
 ### YYYY-MM-DD
