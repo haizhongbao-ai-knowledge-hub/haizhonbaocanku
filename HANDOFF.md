@@ -228,6 +228,39 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Give `海中宝AI一键接入大脑文件.md` to the home computer's GPT/Codex account, then clone the GitHub repository for full project files.
 
+### 2026-07-27 - AI governance system V2.0 first-stage files created
+
+**From:** Codex
+
+**Summary:** Compared the current project system with GPT's governance proposal and archived the confirmed direction into a new AI governance system directory. Constitution-level items were separated from pending details.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/`
+- `00_海中宝AI治理总纲/01_AI宪法/海中宝AI宪法_V1.1_更新版.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/AI专家组织架构_V1.0.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/AI角色权限制度_V1.0.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/AI岗位模型库_V1.0.md`
+- `00_海中宝AI治理总纲/03_AI协同规则/GPT-Codex协同规则_V1.2.md`
+- `00_海中宝AI治理总纲/03_AI协同规则/三方同步机制.md`
+- `00_海中宝AI治理总纲/03_AI协同规则/AI上下文恢复机制.md`
+- `00_海中宝AI治理总纲/04_AI驾驶舱/老板驾驶舱规划_V2.0.md`
+- `00_海中宝AI治理总纲/05_待完善事项/AI治理体系待优化清单.md`
+- `reviews/AI工作群与多AI协作技术评估_待评估.md`
+- `KNOWLEDGE_HUB.md`
+- `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+- `knowledge-hub/UNCONFIRMED_IDEAS.md`
+- `老板驾驶舱.md`
+- `TASKS.md`
+
+**Codex review:**
+
+- Current system strength: GitHub knowledge source, three-party sync, executable Codex rules.
+- GPT proposal strength: governance expansion, AI expert organization, permissions, dashboard V2.0.
+- Risk: AI expert details and work-group technology are still broad and should not be executed as final rules.
+
+**Next recommended step:** Decide the first batch of AI experts to actually implement, then produce execution evaluations for 老板驾驶舱 MVP and AI工作群方案.
+
 ## Template
 
 ### YYYY-MM-DD
