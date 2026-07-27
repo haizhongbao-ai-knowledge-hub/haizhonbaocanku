@@ -4,6 +4,25 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-07-27 - Fixed visible project entry and current progress rule
+
+**From:** Codex
+
+**Summary:** The Codex task entry for the 海中宝 AI project has been restored, renamed, and pinned as `【固定】海中宝AI项目codex执行`. Project materials should continue to be archived in files, but the task entry must remain visible so the boss can always see what is being worked on and what step the project has reached.
+
+**Changed files:**
+
+- `项目固定入口与进度.md`
+- `老板驾驶舱.md`
+- `TASKS.md`
+- `HANDOFF.md`
+
+**Open questions:**
+
+- What is the GitHub private repository URL for `海中宝AI总文件`?
+
+**Next recommended step:** Finish GitHub repository creation, send the repository URL to Codex, then let Codex push the local project files and prepare the home-computer clone workflow.
+
 ### 2026-07-26
 
 **From:** Codex
