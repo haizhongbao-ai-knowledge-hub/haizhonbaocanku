@@ -284,6 +284,23 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Commit locally, generate a backup, and retry GitHub push when network allows.
 
+### 2026-07-27 - GPT and Codex onboarding package created
+
+**From:** Codex
+
+**Summary:** Created ordered onboarding files for connecting a new Codex first, then a new GPT, across different computers or accounts.
+
+**Changed files:**
+
+- `接入包_给GPT和Codex/00_接入顺序说明.md`
+- `接入包_给GPT和Codex/01_复制给Codex_接入执行文件.md`
+- `接入包_给GPT和Codex/02_复制给GPT_接入沟通文件.md`
+- `接入包_给GPT和Codex/03_接入成功检查清单.md`
+- `README.md`
+- `TASKS.md`
+
+**Next recommended step:** Give file 01 to the new Codex account first, then give file 02 to the new GPT account, then verify both with file 03.
+
 ## Template
 
 ### YYYY-MM-DD
