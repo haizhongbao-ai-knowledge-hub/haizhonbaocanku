@@ -10,7 +10,6 @@
 
 ## Next
 
-- [ ] 网络恢复后继续 `git push`，把中央大脑V2.0运行文件推送到 GitHub
 - [ ] 家里电脑 clone GitHub 仓库并完成 Codex 接入测试
 - [ ] 将 `海中宝AI一键接入大脑文件.md` 上传或复制给家里电脑的新 GPT/Codex 账号
 - [ ] 将 `接入包_给GPT和Codex/01_复制给Codex_接入执行文件.md` 复制给新 Codex
@@ -92,6 +91,7 @@
 - [x] 建立《海中宝AI中央大脑 V2.0 阶段完成报告》
 - [x] 建立 `scripts/New-AiSyncNotice.ps1` 同步通知脚本
 - [x] 建立 `sync_records/三方同步确认记录/` 模板目录
+- [x] 推送中央大脑V2.0第一阶段文件到 GitHub
 - [x] 建立本地 Git bundle 和 zip 双备份
 - [x] 建立备份策略文件
 - [x] 配置本项目 Git 用户名和邮箱
@@ -100,7 +100,7 @@
 
 ## Blocked
 
-- [ ] 办公室网络连接 GitHub 不稳定，最新提交暂未成功推送到云端
+- 暂无。
 
 ## Backlog
 
