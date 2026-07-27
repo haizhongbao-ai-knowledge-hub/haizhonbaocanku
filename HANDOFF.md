@@ -187,6 +187,32 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Create the first sync records and Codex execution evaluations for 老板驾驶舱 V2.0 and 老板经营日报 MVP.
 
+### 2026-07-27 - GitHub sync completed and home setup guide added
+
+**From:** Codex
+
+**Summary:** Verified the repository is clean, connected to GitHub, and ready for multi-computer access. Added a dedicated home-computer onboarding guide.
+
+**Changed files:**
+
+- `SYNC_GUIDE.md`
+- `家里电脑接入说明.md`
+- `项目固定入口与进度.md`
+- `README.md`
+- `TASKS.md`
+- `HANDOFF.md`
+
+**GitHub repository:**
+
+- `https://github.com/haizhongbao-ai-knowledge-hub/haizhonbaocanku`
+
+**Open questions:**
+
+- Will the home computer use the same GitHub account or a different GitHub account?
+- Will the home computer use the same ChatGPT/Codex account or a different one?
+
+**Next recommended step:** On the home computer, clone the GitHub repository, open Codex, and ask it to read the core project files listed in `家里电脑接入说明.md`.
+
 ## Template
 
 ### YYYY-MM-DD

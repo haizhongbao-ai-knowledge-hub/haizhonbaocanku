@@ -29,6 +29,7 @@
 4. 让 Codex 按项目文件执行具体任务，并更新 `HANDOFF.md`。
 5. 通过 Git/GitHub 在多台电脑之间同步。
 6. 需要让 GPT 理解协作方式时，复制 `PROMPT_FOR_GPT.md` 给它。
+7. 需要家里电脑接入时，读取 `家里电脑接入说明.md`。
 
 ## 使用原则
 
@@ -41,3 +42,4 @@
 - 已确认知识进入 `knowledge-hub/CONFIRMED_KNOWLEDGE.md`。
 - 未确认想法进入 `knowledge-hub/UNCONFIRMED_IDEAS.md`。
 - 聊天记录摘要进入 `knowledge-hub/CHAT_RECORDS_INDEX.md`。
+- GitHub 仓库是多电脑同步中心：`https://github.com/haizhongbao-ai-knowledge-hub/haizhonbaocanku`。
