@@ -110,3 +110,25 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `接入包_给GPT和Codex/中央大脑导航地图.md`
 - `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑接入系统V1.0完成报告.md`
+
+### 2026-07-28 - Upgrade AI identity, permission, and role management to V1.1
+
+**Decision:** 建立《海中宝AI中央大脑 AI身份、权限与岗位管理体系 V1.1》，把新GPT、新Codex、新AI专家按企业数字员工管理。
+
+**Principles:**
+
+1. 不创建新的平行体系。
+2. 合并进入 `00_海中宝AI治理总纲/07_运行制度/`。
+3. 保持唯一事实来源。
+4. AI不依赖聊天窗口记忆，正式文件才是事实。
+5. P4不代表自动决策，老板仍是最终决策者。
+
+**Impact:** New AI agents must have identity, role, permission, job scope, memory source, and collaboration rules before official work.
+
+**Canonical files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI员工身份管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI权限管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家岗位说明书模板_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI记忆来源管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑AI身份权限体系V1.1完成报告.md`

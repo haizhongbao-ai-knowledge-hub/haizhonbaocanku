@@ -434,6 +434,30 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Use the new entrance file for future new GPT/Codex/AI assistant onboarding, then continue with 老板经营日报MVP执行评估.
 
+### 2026-07-28 - AI identity, permission, and role management V1.1 built
+
+**From:** Boss / Codex
+
+**Summary:** Boss requested the next central-brain upgrade from "AI can read project materials" to "AI behaves like a digital employee with identity, role, permissions, work scope, and collaboration rules." Codex added employee identity management, P0-P4 permission management, AI expert job description template, AI memory source management, and updated onboarding, verification, status, and dashboard files.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI员工身份管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI权限管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家岗位说明书模板_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI记忆来源管理制度_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑AI身份权限体系V1.1完成报告.md`
+- `接入包_给GPT和Codex/海中宝AI中央大脑一键接入入口.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+- `老板驾驶舱.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `DECISIONS.md`
+- `TASKS.md`
+
+**Next recommended step:** Create concrete job descriptions for 战略AI, 经营数据AI, and 财务战略AI, then proceed to 老板经营日报MVP执行评估.
+
 ## Template
 
 ### YYYY-MM-DD
