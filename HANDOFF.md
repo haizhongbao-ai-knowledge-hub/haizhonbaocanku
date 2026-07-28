@@ -414,6 +414,26 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Continue with 老板经营日报MVP执行评估 and 老板驾驶舱V2执行评估.
 
+### 2026-07-28 - Mobile central-brain access system V1.0 built
+
+**From:** Boss / Codex
+
+**Summary:** Boss confirmed execution of the mobile central-brain access system V1.0. Codex created a one-click central-brain entrance file, central navigation map, and identity permission verification table within the existing repository structure. No second central brain or parallel operating directory was created.
+
+**Changed files:**
+
+- `接入包_给GPT和Codex/海中宝AI中央大脑一键接入入口.md`
+- `接入包_给GPT和Codex/中央大脑导航地图.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑接入系统V1.0完成报告.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+- `海中宝AI项目状态总览.md`
+- `DECISIONS.md`
+- `TASKS.md`
+- `HANDOFF.md`
+
+**Next recommended step:** Use the new entrance file for future new GPT/Codex/AI assistant onboarding, then continue with 老板经营日报MVP执行评估.
+
 ## Template
 
 ### YYYY-MM-DD

@@ -90,3 +90,23 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证与权限接入协议_V1.1.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证体系升级报告.md`
 - `海中宝AI一键接入大脑文件.md`
+
+### 2026-07-28 - Build mobile central-brain access system V1.0
+
+**Decision:** 老板确认执行海中宝AI中央大脑接入系统V1.0，建立移动接入入口系统。
+
+**Principles:**
+
+1. 不创建第二套中央大脑。
+2. 不修改现有核心目录结构。
+3. 不把所有知识复制到入口文件。
+4. 入口文件不替代GitHub中央仓库。
+
+**Impact:** New GPT, Codex, and AI assistants can start from one entrance file, then use the navigation map and permission table to find authorized files.
+
+**Canonical files:**
+
+- `接入包_给GPT和Codex/海中宝AI中央大脑一键接入入口.md`
+- `接入包_给GPT和Codex/中央大脑导航地图.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑接入系统V1.0完成报告.md`
