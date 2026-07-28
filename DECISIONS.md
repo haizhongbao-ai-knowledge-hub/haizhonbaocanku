@@ -70,3 +70,23 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `sync_records/三方同步确认记录/2026-07-27_中央大脑V2第一阶段验收通过.md`
 - `接入包_给GPT和Codex/04_ChatGPT项目资料接入清单.md`
 - `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+
+### 2026-07-28 - Adopt identity authentication and permission access V1.1
+
+**Decision:** 老板确认中央大脑身份认证与权限接入方向，采用三层验证机制。
+
+**Three layers:**
+
+1. 接入文件验证：确认一键接入文件版本、更新时间和GitHub仓库地址。
+2. 身份验证：当前阶段使用人员姓名/岗位或AI名称/服务岗位，并通过老板独立渠道确认口令。
+3. 权限验证：根据岗位匹配可读取资料、可执行任务和是否需要老板确认。
+
+**Important security rule:** Real passwords, tokens, verification codes, and credentials must not be stored in the GitHub repository. The repository records only fields, process, and permission rules.
+
+**Impact:** New computers, GPT accounts, Codex accounts, and AI experts must follow the V1.1 access protocol before working with central-brain materials.
+
+**Canonical files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证与权限接入协议_V1.1.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证体系升级报告.md`
+- `海中宝AI一键接入大脑文件.md`

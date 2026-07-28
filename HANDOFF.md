@@ -394,6 +394,26 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Boss confirms whether Codex should upgrade the draft into official governance files.
 
+### 2026-07-28 - Identity authentication and permission access V1.1 added
+
+**From:** Boss / Codex
+
+**Summary:** Boss confirmed the direction for central-brain identity authentication and permission access. Codex merged the V1.1 protocol into the existing `00_海中宝AI治理总纲/07_运行制度/` directory without creating a new parallel directory. The one-click onboarding file was updated to V1.1 and now points new computers, new GPT accounts, new Codex accounts, and AI experts to the three-layer verification mechanism.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证与权限接入协议_V1.1.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑身份认证体系升级报告.md`
+- `海中宝AI一键接入大脑文件.md`
+- `海中宝AI项目状态总览.md`
+- `DECISIONS.md`
+- `TASKS.md`
+- `HANDOFF.md`
+
+**Security note:** Real passwords, tokens, and credentials must not be stored in GitHub. Only process fields and permission rules are stored in the repository.
+
+**Next recommended step:** Continue with 老板经营日报MVP执行评估 and 老板驾驶舱V2执行评估.
+
 ## Template
 
 ### YYYY-MM-DD
