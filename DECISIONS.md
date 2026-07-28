@@ -154,3 +154,25 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `00_海中宝AI治理总纲/07_运行制度/AI身份申请表.md`
 - `sync_records/AI接入同步记录模板.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑无缝接入系统V1.1完成报告.md`
+
+### 2026-07-28 - Adopt agent one-click access protocol V2.0
+
+**Decision:** 建立《海中宝AI中央大脑智能体一键接入协议 V2.0》，将V2.0入口作为所有AI智能体的唯一入口文件。
+
+**Flow:** 识别 -> 接入中央大脑 -> 身份申请 -> 岗位匹配 -> 权限授权 -> 获取工作方向 -> 开始工作。
+
+**Principles:**
+
+1. 不是自动拥有全部权限。
+2. 中央大脑根据岗位给权限。
+3. 老板最终决策。
+4. GPT负责思考。
+5. Codex负责落地。
+
+**Canonical files:**
+
+- `接入包_给GPT和Codex/海中宝AI中央大脑智能体一键接入入口_V2.0.md`
+- `接入包_给GPT和Codex/AI岗位选择表.md`
+- `接入包_给GPT和Codex/AI权限自动匹配规则.md`
+- `接入包_给GPT和Codex/AI接入完成确认模板.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑智能体一键接入协议V2.0完成报告.md`

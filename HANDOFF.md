@@ -482,6 +482,28 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Use the entrance file for an actual new GPT/Codex access test, then continue with first AI expert job descriptions.
 
+### 2026-07-28 - Agent one-click access protocol V2.0 built
+
+**From:** Boss / Codex
+
+**Summary:** Boss provided the V2.0 agent one-click access protocol. Codex created the V2.0 unique entrance file, AI role selection table, permission auto-matching rules, access completion confirmation template, and completion report. Existing V1/V1.1 files remain for compatibility, while the ChatGPT project material list now prioritizes the V2.0 entrance.
+
+**Changed files:**
+
+- `接入包_给GPT和Codex/海中宝AI中央大脑智能体一键接入入口_V2.0.md`
+- `接入包_给GPT和Codex/AI岗位选择表.md`
+- `接入包_给GPT和Codex/AI权限自动匹配规则.md`
+- `接入包_给GPT和Codex/AI接入完成确认模板.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑智能体一键接入协议V2.0完成报告.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
+- `接入包_给GPT和Codex/04_ChatGPT项目资料接入清单.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `DECISIONS.md`
+- `TASKS.md`
+
+**Next recommended step:** Use the V2.0 entrance file for future new GPT/Codex onboarding; create the first three AI expert job descriptions next.
+
 ## Template
 
 ### YYYY-MM-DD
