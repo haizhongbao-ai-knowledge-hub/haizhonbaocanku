@@ -504,6 +504,27 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Use the V2.0 entrance file for future new GPT/Codex onboarding; create the first three AI expert job descriptions next.
 
+### 2026-07-28 - Role authorization loading system V1.0 added
+
+**From:** Boss / Codex
+
+**Summary:** Boss requested optimization for central-brain V2.0 role authorization loading. Codex added a role authorization loading flow, role permission matrix, and V2.0 access completion confirmation template. The system now explicitly authorizes AI identities rather than GPT accounts.
+
+**Changed files:**
+
+- `接入包_给GPT和Codex/AI岗位授权加载流程V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI岗位权限矩阵V1.0.md`
+- `接入包_给GPT和Codex/AI接入完成确认模板_V2.0.md`
+- `接入包_给GPT和Codex/海中宝AI中央大脑智能体一键接入入口_V2.0.md`
+- `接入包_给GPT和Codex/AI权限自动匹配规则.md`
+- `接入包_给GPT和Codex/04_ChatGPT项目资料接入清单.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `DECISIONS.md`
+- `TASKS.md`
+
+**Next recommended step:** Test onboarding with a real new GPT/Codex account using the V2.0 entrance file.
+
 ## Template
 
 ### YYYY-MM-DD

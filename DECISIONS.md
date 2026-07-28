@@ -176,3 +176,17 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `接入包_给GPT和Codex/AI权限自动匹配规则.md`
 - `接入包_给GPT和Codex/AI接入完成确认模板.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑智能体一键接入协议V2.0完成报告.md`
+
+### 2026-07-28 - Add role authorization loading system V1.0
+
+**Decision:** 完善中央大脑V2.0的岗位授权加载系统。
+
+**Key principle:** 不授权GPT账号本身，而是授权智能体身份。同一个GPT账号可以根据入口文件、身份表、权限文件切换HR AI、产品AI、财务AI等不同岗位模式。
+
+**Impact:** New AI agents now move through role authorization loading: identity recognition, role selection, permission request, boss authorization, knowledge loading, and role work mode.
+
+**Canonical files:**
+
+- `接入包_给GPT和Codex/AI岗位授权加载流程V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI岗位权限矩阵V1.0.md`
+- `接入包_给GPT和Codex/AI接入完成确认模板_V2.0.md`
