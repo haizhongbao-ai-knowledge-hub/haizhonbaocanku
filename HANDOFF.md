@@ -373,6 +373,27 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Codex should produce execution evaluations for 老板经营日报MVP and 老板驾驶舱V2 before development.
 
+### 2026-07-28 - Unified access and permissions draft reviewed
+
+**From:** GPT / Codex
+
+**Summary:** GPT submitted an initial V1.0 design for central-brain unified access, permissions, AI identity archives, device recovery, and a Codex task order. Codex archived the draft as unconfirmed material and completed a review. Codex recommends integrating the new ideas into the existing repository structure instead of creating a parallel root directory set.
+
+**Changed files:**
+
+- `inbox/gpt-handoffs/2026-07-28_中央大脑统一接入权限体系初步设计/`
+- `reviews/CODEX_REVIEW_中央大脑统一接入权限体系_2026-07-28.md`
+- `海中宝AI项目状态总览.md`
+- `TASKS.md`
+
+**Open questions:**
+
+- Should老板 confirm the unified access and permissions system as a formal制度升级?
+- Should P0-P4 become the unified permission standard, with P4 still requiring boss confirmation for major actions?
+- Should permissions stay in Markdown first instead of Excel for Git version control?
+
+**Next recommended step:** Boss confirms whether Codex should upgrade the draft into official governance files.
+
 ## Template
 
 ### YYYY-MM-DD
