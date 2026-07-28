@@ -132,3 +132,25 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `00_海中宝AI治理总纲/07_运行制度/AI专家岗位说明书模板_V1.0.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI记忆来源管理制度_V1.0.md`
 - `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑AI身份权限体系V1.1完成报告.md`
+
+### 2026-07-28 - Build seamless access and progressive authorization system V1.1
+
+**Decision:** 建立海中宝AI中央大脑无缝接入与渐进式授权系统V1.1。
+
+**Principles:**
+
+1. 不依赖聊天记忆。
+2. 新AI默认P0观察员状态。
+3. 不一次开放全部权限。
+4. 权限必须按岗位申请，并由老板确认。
+5. Codex负责更新权限文件、同步GitHub并生成接入记录。
+
+**Impact:** Any new GPT, Codex, or AI assistant can start from one entrance file, then gradually move from P0 to the authorized role.
+
+**Canonical files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑启动加载协议_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI接入状态中心_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份申请表.md`
+- `sync_records/AI接入同步记录模板.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央大脑无缝接入系统V1.1完成报告.md`
