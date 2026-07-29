@@ -583,6 +583,24 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Keep using `海中宝AI中央大脑智能体一键接入入口_V2.0.md` as the phone/USB first file; update central repository files for future normal upgrades.
 
+### 2026-07-29 - Central repository loading rule added
+
+**From:** Boss / Codex
+
+**Summary:** Boss clarified that the goal is not to give one entrance file and then manually upload many role files later. Codex added the central repository loading rule: daily onboarding should start with only the V2.0 entrance file, then AI reads navigation, status, permission, and role knowledge from GitHub or the local central repository according to authorization. Phone/USB extra files are backup and disaster recovery material, not the normal second step.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央仓库资料加载规则_V1.0.md`
+- `接入包_给GPT和Codex/海中宝AI中央大脑智能体一键接入入口_V2.0.md`
+- `接入包_给GPT和Codex/中央大脑导航地图.md`
+- `接入包_随身使用/README_优盘手机接入包.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `TASKS.md`
+
+**Next recommended step:** Test a new GPT/Codex onboarding flow where the boss provides only the entrance file and the AI requests central repository access instead of asking for many uploaded files.
+
 ## Template
 
 ### YYYY-MM-DD
