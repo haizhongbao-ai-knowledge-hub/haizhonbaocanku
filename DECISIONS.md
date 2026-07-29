@@ -190,3 +190,40 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `接入包_给GPT和Codex/AI岗位授权加载流程V1.0.md`
 - `00_海中宝AI治理总纲/07_运行制度/AI岗位权限矩阵V1.0.md`
 - `接入包_给GPT和Codex/AI接入完成确认模板_V2.0.md`
+
+### 2026-07-29 - Create first real business agent HZB-HR-AI-001
+
+**Decision:** 建立海中宝AI中央大脑第一个真实业务智能体：HZB-HR-AI-001 招聘AI。
+
+**Goal:** 验证中央大脑岗位授权、知识加载、业务执行闭环。
+
+**Scope:**
+
+1. HR AI岗位定义。
+2. HR知识库目录。
+3. 招聘AI岗位授权加载流程。
+4. 运营助理招聘AI MVP模板：岗位JD、人才画像、简历评分、BOSS沟通话术、面试问题库、候选人评价表。
+5. 中央大脑状态、权限、导航同步。
+
+**Security:** 当前只建立模板和知识结构，不保存真实候选人隐私、员工隐私或财务敏感数据。
+
+**Canonical files:**
+
+- `00_海中宝AI治理总纲/02_AI组织体系/HZB-HR-AI-001_招聘AI岗位定义.md`
+- `knowledge-hub/department-knowledge/HR招聘AI/`
+- `projects/HZB-HR-AI-001_招聘AI/`
+- `sync_records/三方同步确认记录/2026-07-29_HZB-HR-AI-001招聘AI_MVP建设.md`
+
+### 2026-07-29 - Create mobile/USB central-brain access package
+
+**Decision:** 建立老板优盘/手机随身接入包。
+
+**Rule:** 新GPT、新Codex、新AI专家第一次优先只给 `海中宝AI中央大脑智能体一键接入入口_V2.0.md`。第二批文件只在身份、岗位和权限确认后再给。
+
+**Actual package folder:**
+
+- `D:\Administrator\Documents\HZB_AI_Mobile_Access_Package`
+
+**Repository guide:**
+
+- `接入包_随身使用/`

@@ -525,6 +525,47 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Test onboarding with a real new GPT/Codex account using the V2.0 entrance file.
 
+### 2026-07-29 - HZB-HR-AI-001 recruiting AI MVP created
+
+**From:** Boss / Codex
+
+**Summary:** Boss requested the first real business agent: HZB-HR-AI-001 招聘AI. Codex created the AI role definition, HR knowledge base, role authorization loading flow, and recruiting AI MVP templates for JD generation, talent profile, resume scoring, BOSS communication scripts, interview question bank, and candidate evaluation.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/02_AI组织体系/HZB-HR-AI-001_招聘AI岗位定义.md`
+- `knowledge-hub/department-knowledge/HR招聘AI/`
+- `projects/HZB-HR-AI-001_招聘AI/`
+- `sync_records/三方同步确认记录/2026-07-29_HZB-HR-AI-001招聘AI_MVP建设.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI接入状态中心_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI员工身份管理制度_V1.0.md`
+- `接入包_给GPT和Codex/中央大脑导航地图.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+
+**Open questions:**
+
+- What are the real requirements for the first position, likely 运营助理?
+- What company introduction and attraction points can HR AI use?
+- What salary range can HR AI read or mention?
+
+**Next recommended step:** Boss/GPT review HR AI MVP, then provide real first-position requirements.
+
+### 2026-07-29 - Mobile/USB access package designed
+
+**From:** Boss / Codex
+
+**Summary:** Boss asked what files should be stored on a USB drive or phone folder for owner and AI expert onboarding. Codex created a portable access package design and generated the actual folder at `D:\Administrator\Documents\HZB_AI_Mobile_Access_Package`. Rule: usually give only the V2.0 entrance file first; second-batch files are provided only after role and permission authorization.
+
+**Changed files:**
+
+- `接入包_随身使用/`
+- `D:\Administrator\Documents\HZB_AI_Mobile_Access_Package`
+
+**Next recommended step:** Copy `D:\Administrator\Documents\HZB_AI_Mobile_Access_Package` to the USB drive or phone storage when needed.
+
 ## Template
 
 ### YYYY-MM-DD
