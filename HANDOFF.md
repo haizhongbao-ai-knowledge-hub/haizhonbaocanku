@@ -566,6 +566,23 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Copy `D:\Administrator\Documents\HZB_AI_Mobile_Access_Package` to the USB drive or phone storage when needed.
 
+### 2026-07-29 - Stable mobile entrance rule added
+
+**From:** Boss / Codex
+
+**Summary:** Boss clarified that the mobile/phone entrance file should not need frequent replacement as the central brain continues to improve. Codex added a stable entrance strategy and updated the V2.0 entrance file so it acts as a long-term bootloader. Future ordinary upgrades should happen in navigation, status, permission, role knowledge, and project files, not by replacing the phone entrance file.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央入口文件稳定策略_V1.0.md`
+- `接入包_给GPT和Codex/海中宝AI中央大脑智能体一键接入入口_V2.0.md`
+- `接入包_随身使用/README_优盘手机接入包.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `TASKS.md`
+
+**Next recommended step:** Keep using `海中宝AI中央大脑智能体一键接入入口_V2.0.md` as the phone/USB first file; update central repository files for future normal upgrades.
+
 ## Template
 
 ### YYYY-MM-DD
