@@ -601,6 +601,27 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Test a new GPT/Codex onboarding flow where the boss provides only the entrance file and the AI requests central repository access instead of asking for many uploaded files.
 
+### 2026-07-29 - Identity and account onboarding core added
+
+**From:** Boss / Codex
+
+**Summary:** Boss provided the first/second/third batch file strategy for Codex identity and account onboarding. Codex added `AI账号绑定管理表.md`, updated identity and permission files, and created a Codex-specific core file checklist. Core identities now include 春晓V0 (`HZB-OWNER-001`), 伟强V1 (`HZB-AI-CEO-001`), GPT战略助手, Codex执行助手, and HR招聘AI. 伟强V1 is treated as AI project负责人 with P3 project permissions, not Owner permissions.
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/AI账号绑定管理表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI身份权限验证表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+- `接入包_给GPT和Codex/AI岗位选择表.md`
+- `接入包_给GPT和Codex/AI权限自动匹配规则.md`
+- `接入包_给GPT和Codex/中央大脑导航地图.md`
+- `接入包_给GPT和Codex/给Codex_身份与账号接入核心文件清单.md`
+- `海中宝AI项目状态总览.md`
+- `KNOWLEDGE_HUB.md`
+- `TASKS.md`
+
+**Next recommended step:** Use the new Codex checklist to test onboarding for 伟强V1 on another computer/account.
+
 ## Template
 
 ### YYYY-MM-DD
