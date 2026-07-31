@@ -10,3 +10,6 @@
 4. 可执行任务进入 `REQUIREMENTS_TABLE.md` 和 `TASKS.md`。
 5. 重要判断进入 `DECISIONS.md`。
 
+## 新增层
+
+- `enterprise-facts/`：海中宝授权经营事实层与经营指标字典。

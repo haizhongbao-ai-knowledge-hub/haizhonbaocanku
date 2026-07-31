@@ -644,6 +644,31 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Build the basic-face confirmation checklist and boss daily report MVP data-requirements table after boss approval.
 
+### 2026-07-31 - 企业经营事实层已建立
+
+**From:** Boss / GPT / Codex
+
+**Summary:** 伟强V1 的基本面数据包已升级为中央大脑的授权经营事实层知识库，并新增经营指标字典。该层将作为战略AI、经营数据AI、财务战略AI、HR AI、产品AI的统一企业认知底座。GPT 同时提出 AI 建设优先级重排建议：经营数据AI、HR AI、财务战略AI，等待老板确认后再调整正式顺序。
+
+**Changed files:**
+
+- `knowledge-hub/enterprise-facts/README.md`
+- `knowledge-hub/enterprise-facts/海中宝AI中央大脑企业经营事实层知识库_V1.0.md`
+- `knowledge-hub/enterprise-facts/海中宝经营指标字典_V1.0.md`
+- `sync_records/三方同步确认记录/2026-07-31_企业经营事实层知识库建设.md`
+- `KNOWLEDGE_HUB.md`
+- `knowledge-hub/README.md`
+- `knowledge-hub/CONFIRMED_KNOWLEDGE.md`
+- `knowledge-hub/UNCONFIRMED_IDEAS.md`
+- `海中宝AI项目状态总览.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI状态中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI专家身份权限管理表.md`
+- `projects/海中宝AI自动化项目/README.md`
+- `projects/海中宝AI自动化项目/数据需求.md`
+- `TASKS.md`
+
+**Next recommended step:** Use the enterprise facts layer as the only shared base for老板经营日报MVP and the first batch of AI expert design.
+
 ## Template
 
 ### YYYY-MM-DD
