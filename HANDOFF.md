@@ -622,6 +622,28 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Use the new Codex checklist to test onboarding for 伟强V1 on another computer/account.
 
+### 2026-07-31 - 伟强V1基本面数据包 reviewed
+
+**From:** Boss / Codex
+
+**Summary:** Boss provided `基本面_数据包(1).zip` from 伟强V1 for review. Codex extracted and reviewed the company basic background profile, central brain project execution plan, and process SVG. Conclusion: the package direction is correct and useful for entering business MVP construction, but it remains a draft/basic-input package and should not be used as final development authority before boss confirmation. Sensitive business data should enter authorized operating-data layers, not public access packages.
+
+**Changed files:**
+
+- `reviews/CODEX_REVIEW_伟强V1基本面数据包_2026-07-31.md`
+- `接入包_给GPT和Codex/给Codex_伟强V1基本面数据包复核与执行建议_2026-07-31.md`
+- `KNOWLEDGE_HUB.md`
+- `TASKS.md`
+
+**Open questions:**
+
+- Should the company basic background profile enter the authorized operating-data layer?
+- Should 伟强V1 provide the missing original company-profile source file?
+- What is the confirmed cost-ratio basis?
+- Should the first business MVP start with CSV/Excel before database work?
+
+**Next recommended step:** Build the basic-face confirmation checklist and boss daily report MVP data-requirements table after boss approval.
+
 ## Template
 
 ### YYYY-MM-DD
