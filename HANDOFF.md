@@ -687,6 +687,27 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** 当前 `main` 如仍本地领先云端，计划任务会在每天 18:05 自动复核并重试推送。
 
+### 2026-08-01 - AI委员会会议系统 V0.1 建立
+
+**From:** Boss / Codex
+
+**Summary:** Boss provided the requirements for `HZB-AI-COMMITTEE-001`. Codex built a file-based AI committee MVP under the existing central brain, without creating a second central brain. The system includes AI committee rules, meeting categories, templates, role cards, a meeting creation script, and a generated test meeting to verify the templates.
+
+**Changed files:**
+
+- `projects/AI委员会/`
+- `projects/AI委员会/AI委员会系统规则_V0.1.md`
+- `projects/AI委员会/templates/`
+- `projects/AI委员会/roles/`
+- `projects/AI委员会/meetings/HZB-TEST-001_AICommitteeV01TemplateTest/`
+- `scripts/New-AICommitteeMeeting.ps1`
+- `KNOWLEDGE_HUB.md`
+- `TASKS.md`
+- `DECISIONS.md`
+- `海中宝AI项目状态总览.md`
+
+**Next recommended step:** Use the AI committee system for the first real business meeting, preferably a老板经营日报MVP or产品/经营问题.
+
 ## Template
 
 ### YYYY-MM-DD

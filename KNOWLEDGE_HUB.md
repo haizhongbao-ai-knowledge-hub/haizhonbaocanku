@@ -47,6 +47,9 @@
 | 经营指标字典 | `knowledge-hub/enterprise-facts/海中宝经营指标字典_V1.0.md` | 老板经营日报与驾驶舱的指标口径 |
 | 未完成上传同步重试清单 | `sync_records/未完成上传同步重试清单.md` | 每天18:00后自动复核未完成上传、归档、推送、同步事项 |
 | 18点后重试脚本 | `scripts/Retry-UnfinishedUploadsAfter18.ps1` | 本地半自动检查和重试GitHub推送 |
+| AI委员会系统 | `projects/AI委员会/` | 企业级AI决策会议系统，V0.1采用GPT+Codex+GitHub中央文件实现 |
+| AI委员会规则 | `projects/AI委员会/AI委员会系统规则_V0.1.md` | AI委员会会议流程、角色、权限、文件结构和验收标准 |
+| AI委员会会议脚本 | `scripts/New-AICommitteeMeeting.ps1` | 创建标准AI委员会会议目录和模板文件 |
 | AI岗位选择表 | `接入包_给GPT和Codex/AI岗位选择表.md` | 新AI申请服务岗位 |
 | AI权限自动匹配规则 | `接入包_给GPT和Codex/AI权限自动匹配规则.md` | 根据岗位生成权限配置 |
 | AI接入完成确认模板 | `接入包_给GPT和Codex/AI接入完成确认模板.md` | 授权完成后的标准确认格式 |

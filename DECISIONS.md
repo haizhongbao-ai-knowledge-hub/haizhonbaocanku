@@ -227,3 +227,25 @@ Use this file to record important project decisions so GPT and Codex do not repe
 **Repository guide:**
 
 - `接入包_随身使用/`
+
+### 2026-08-01 - Build AI committee V0.1 as file-based MVP
+
+**Decision:** 建立《海中宝AI委员会会议系统 V0.1》，第一阶段采用 GPT + Codex + GitHub 中央文件模拟 AI 委员会，暂不开发 APP。
+
+**Why:** 当前重点是验证 AI 组织协同流程，而不是先做复杂软件。文件型会议系统能先跑通问题整理、专家独立分析、综合建议、老板决策、执行记录和复盘沉淀。
+
+**Principles:**
+
+1. 不创建第二套中央大脑。
+2. AI身份独立于设备、GPT账号和电脑。
+3. 所有AI讨论必须形成结果，禁止无限聊天。
+4. Codex只依据正式确认文件执行。
+
+**Impact:** 新增 `projects/AI委员会/`，作为企业级AI决策会议系统入口。后续员工、老板或负责人提出问题时，可以进入AI委员会会议流程。
+
+**Canonical files:**
+
+- `projects/AI委员会/AI委员会系统规则_V0.1.md`
+- `projects/AI委员会/templates/`
+- `projects/AI委员会/roles/`
+- `scripts/New-AICommitteeMeeting.ps1`
