@@ -45,6 +45,8 @@
 | 给Codex基本面执行建议 | `接入包_给GPT和Codex/给Codex_伟强V1基本面数据包复核与执行建议_2026-07-31.md` | 可直接给Codex的短版执行前复核说明 |
 | 企业经营事实层知识库 | `knowledge-hub/enterprise-facts/海中宝AI中央大脑企业经营事实层知识库_V1.0.md` | 公司主体、商业模式、组织管理、经营事实、AI读取说明 |
 | 经营指标字典 | `knowledge-hub/enterprise-facts/海中宝经营指标字典_V1.0.md` | 老板经营日报与驾驶舱的指标口径 |
+| 未完成上传同步重试清单 | `sync_records/未完成上传同步重试清单.md` | 每天18:00后自动复核未完成上传、归档、推送、同步事项 |
+| 18点后重试脚本 | `scripts/Retry-UnfinishedUploadsAfter18.ps1` | 本地半自动检查和重试GitHub推送 |
 | AI岗位选择表 | `接入包_给GPT和Codex/AI岗位选择表.md` | 新AI申请服务岗位 |
 | AI权限自动匹配规则 | `接入包_给GPT和Codex/AI权限自动匹配规则.md` | 根据岗位生成权限配置 |
 | AI接入完成确认模板 | `接入包_给GPT和Codex/AI接入完成确认模板.md` | 授权完成后的标准确认格式 |

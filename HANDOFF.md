@@ -669,6 +669,24 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** Use the enterprise facts layer as the only shared base for老板经营日报MVP and the first batch of AI expert design.
 
+### 2026-07-31 - 18点后未完成上传同步重试机制建立
+
+**From:** Boss / Codex
+
+**Summary:** Boss要求：凡是Codex需要上传的资料，不管因为什么原因导致未完成，每天晚上18点后必须自动审核并再次上传。Codex已将该要求写入中央仓库资料加载规则和自动同步机制设计，并新增未完成上传同步重试清单及本地半自动重试脚本。办公室电脑已建立 Windows 计划任务：`海中宝AI_18点后同步重试`，每天 18:05 运行。
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI中央仓库资料加载规则_V1.0.md`
+- `00_海中宝AI治理总纲/07_运行制度/海中宝AI自动同步机制设计_V1.0.md`
+- `sync_records/未完成上传同步重试清单.md`
+- `scripts/Retry-UnfinishedUploadsAfter18.ps1`
+- `KNOWLEDGE_HUB.md`
+- `海中宝AI项目状态总览.md`
+- `TASKS.md`
+
+**Next recommended step:** 当前 `main` 如仍本地领先云端，计划任务会在每天 18:05 自动复核并重试推送。
+
 ## Template
 
 ### YYYY-MM-DD
