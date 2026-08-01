@@ -8,6 +8,7 @@ param(
     [string]$MeetingType = "General",
     [string]$Requester = "TBD",
     [string]$Question = "TBD",
+    [string]$TemplateVersion = "V1.0",
     [string]$RepoPath = ""
 )
 
@@ -27,6 +28,10 @@ if ([string]::IsNullOrWhiteSpace($projectDir)) {
 }
 
 $templateDir = Join-Path $projectDir "templates"
+$versionedTemplateDir = Join-Path $templateDir $TemplateVersion
+if (Test-Path -LiteralPath $versionedTemplateDir) {
+    $templateDir = $versionedTemplateDir
+}
 $meetingRoot = Join-Path $projectDir "meetings"
 $safeName = ($MeetingName -replace '[\\/:*?"<>|]', '_')
 $meetingDir = Join-Path $meetingRoot ($MeetingId + "_" + $safeName)

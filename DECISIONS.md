@@ -249,3 +249,25 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `projects/AI委员会/templates/`
 - `projects/AI委员会/roles/`
 - `scripts/New-AICommitteeMeeting.ps1`
+
+### 2026-08-01 - Deploy AI committee V1.0 initialization layer
+
+**Decision:** 在 V0.1 文件会议系统基础上，执行《海中宝AI委员会V1.0初始化部署任务书》，补齐设备登记、AI身份卡、账号权限映射、中央同步规则和第一场测试会议。
+
+**Why:** V0.1 证明会议文件系统可行；V1.0 需要让 AI 委员会具备组织资产、身份权限、同步归档和测试会议能力。
+
+**Principles:**
+
+1. 不创建第二套中央大脑。
+2. 不保存真实密码。
+3. 不自动获得Owner权限。
+4. `PROJECT_STATUS.md` 只做兼容入口，唯一状态正文仍是 `海中宝AI项目状态总览.md`。
+
+**Canonical files:**
+
+- `projects/AI委员会/海中宝AI委员会V1.0初始化部署任务书.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI设备资产表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI账号权限表.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI中央同步规则V1.0.md`
+- `projects/AI委员会/AI角色身份卡/`
+- `projects/AI委员会/meetings/HZB-AI-COMMITTEE-TEST-001_海中宝AI中央大脑下一阶段建设规划/`
