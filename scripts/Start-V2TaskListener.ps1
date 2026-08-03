@@ -103,18 +103,18 @@ function Invoke-Scan {
     $local = & $git -c "safe.directory=$RepoPath" -C $RepoPath rev-parse HEAD
     $remote = & $git -c "safe.directory=$RepoPath" -C $RepoPath rev-parse origin/main
     $dirty = (& $git -c "safe.directory=$RepoPath" -C $RepoPath status --porcelain)
-    if ($dirty) { Write-ListenerLog 'SKIP | worktree not clean'; Write-Host 'skipped: worktree not clean'; return }
+    if ($dirty) { Write-Host 'skipped: worktree not clean'; return }
     if ($local -ne $remote) { Invoke-Git @('pull', '--ff-only', 'origin', 'main') }
 
     $active = Get-ChildItem -LiteralPath $runningPath -File -ErrorAction SilentlyContinue |
         Where-Object Name -notlike '.gitkeep'
-    if ($active) { Write-ListenerLog 'SKIP | V2 already has an executing task'; Write-Host 'skipped: active task exists'; return }
+    if ($active) { Write-Host 'skipped: active task exists'; return }
 
     foreach ($task in (Get-ChildItem -LiteralPath $dispatchPath -File -ErrorAction SilentlyContinue)) {
         $taskId = Get-TaskId $task.FullName
         if (-not $taskId -or $taskId -ne 'TASK-20260804-006') { continue }
-        if (-not (Is-V2Task $task.FullName)) { Write-ListenerLog "$taskId | SKIP | node mismatch"; continue }
-        if (HasTaskAnywhere $taskId) { Write-ListenerLog "$taskId | SKIP | task already recorded"; continue }
+        if (-not (Is-V2Task $task.FullName)) { Write-Host "$taskId skipped: node mismatch"; continue }
+        if (HasTaskAnywhere $taskId) { Write-Host "$taskId skipped: task already recorded"; continue }
 
         $destination = Join-Path $runningPath $task.Name
         Move-Item -LiteralPath $task.FullName -Destination $destination
