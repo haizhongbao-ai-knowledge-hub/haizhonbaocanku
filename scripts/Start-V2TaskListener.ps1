@@ -13,11 +13,24 @@ $git = if (Test-Path 'D:\HZB_AI_Central_Brain\Git\cmd\git.exe') {
 }
 
 $queueRoot = Join-Path $RepoPath 'runtime\task_queue'
-$dispatchPath = Join-Path $queueRoot '02_已派单'
-$runningPath = Join-Path $queueRoot '03_执行中'
+$queueDirs = Get-ChildItem -LiteralPath $queueRoot -Directory
+$dispatchPath = ($queueDirs | Where-Object Name -like '02_*' | Select-Object -First 1).FullName
+$runningPath = ($queueDirs | Where-Object Name -like '03_*' | Select-Object -First 1).FullName
+$approvalPath = ($queueDirs | Where-Object Name -like '04_*' | Select-Object -First 1).FullName
+$completedPath = ($queueDirs | Where-Object Name -like '05_*' | Select-Object -First 1).FullName
 $claimsPath = Join-Path $queueRoot 'claims'
 $claimLog = Join-Path $claimsPath 'V2_LISTENER.log'
-$heartbeatPath = Join-Path $RepoPath '00_老板驾驶舱\AI节点总览\V2_HEARTBEAT.md'
+$heartbeatPath = (Get-ChildItem -LiteralPath $RepoPath -Recurse -File -Filter 'V2_HEARTBEAT.md' | Select-Object -First 1).FullName
+$fields = @{
+    Status = ([string][char]0x72B6 + [char]0x6001)
+    CurrentTask = ([string][char]0x5F53 + [char]0x524D + [char]0x4EFB + [char]0x52A1)
+    CurrentTaskId = ([string][char]0x5F53 + [char]0x524D + [char]0x4EFB + [char]0x52A1 + [char]0x7F16 + [char]0x53F7)
+    TaskStatus = ([string][char]0x4EFB + [char]0x52A1 + [char]0x72B6 + [char]0x6001)
+    Progress = ([string][char]0x5B8C + [char]0x6210 + [char]0x8FDB + [char]0x5EA6)
+    Lock = ([string][char]0x9501 + [char]0x5B9A + [char]0x6587 + [char]0x4EF6)
+    Load = ([string][char]0x5F53 + [char]0x524D + [char]0x8D1F + [char]0x8F7D)
+    LastUpdate = ([string][char]0x6700 + [char]0x540E + [char]0x66F4 + [char]0x65B0 + [char]0x65F6 + [char]0x95F4)
+}
 $mutex = [Threading.Mutex]::new($false, 'HZB-V2-TaskListener')
 $hasMutex = $false
 
@@ -47,43 +60,43 @@ function Update-Heartbeat {
     param([string]$TaskId)
     $text = Get-Content -LiteralPath $heartbeatPath -Raw -Encoding UTF8
     $now = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss zzz')
-    $text = Set-HeartbeatField $text '状态' 'Trial Running'
-    $text = Set-HeartbeatField $text '当前任务' $TaskId
-    $text = Set-HeartbeatField $text '当前任务编号' $TaskId
-    $text = Set-HeartbeatField $text '任务状态' 'Picked'
-    $text = Set-HeartbeatField $text '完成进度' '0%'
-    $text = Set-HeartbeatField $text '锁定文件' $TaskId
-    $text = Set-HeartbeatField $text '当前负载' '1 task'
-    $text = Set-HeartbeatField $text '最后更新时间' $now
+    $text = Set-HeartbeatField $text $fields.Status 'Trial Running'
+    $text = Set-HeartbeatField $text $fields.CurrentTask $TaskId
+    $text = Set-HeartbeatField $text $fields.CurrentTaskId $TaskId
+    $text = Set-HeartbeatField $text $fields.TaskStatus 'Picked'
+    $text = Set-HeartbeatField $text $fields.Progress '0%'
+    $text = Set-HeartbeatField $text $fields.Lock $TaskId
+    $text = Set-HeartbeatField $text $fields.Load '1 task'
+    $text = Set-HeartbeatField $text $fields.LastUpdate $now
     [IO.File]::WriteAllText($heartbeatPath, $text, [Text.UTF8Encoding]::new($false))
 }
 
 function Get-TaskId([string]$Path) {
-    $match = [regex]::Match((Get-Content -LiteralPath $Path -Raw -Encoding UTF8), '(?m)^TASK[-_]\d{8}[-_]\d{3,}$')
-    if ($match.Success) { return $match.Value.Trim() }
-    $nameMatch = [regex]::Match([IO.Path]::GetFileName($Path), 'TASK[-_]\d{8}[-_]\d{3,}')
-    if ($nameMatch.Success) { return $nameMatch.Value }
+    $text = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    if ($text -match '(?m)^\s*(TASK[-_]\d{8}[-_]\d{3,})\s*$') { return $Matches[1] }
+    if ([IO.Path]::GetFileName($Path) -match '(TASK[-_]\d{8}[-_]\d{3,})') { return $Matches[1] }
     return $null
 }
 
 function Is-V2Task([string]$Path) {
     $text = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
-    return (($text -match '(?m)^执行节点\s*\r?\n\s*V2\s*$') -or
-        ($text -match '(?m)^执行节点\s*\r?\n\s*V2 AI研发协同中心\s*$'))
+    return (($text -match '(?m)^\s*V2\s*$') -or
+        ($text -match '(?m)^\s*V2 AI.*$'))
 }
 
 function HasTaskAnywhere([string]$TaskId) {
     Get-ChildItem -LiteralPath @(
-        (Join-Path $queueRoot '03_执行中'),
-        (Join-Path $queueRoot '04_待审批'),
-        (Join-Path $queueRoot '05_已完成')
+        $runningPath,
+        $approvalPath,
+        $completedPath
     ) -Recurse -File -ErrorAction SilentlyContinue |
         Where-Object { $_.Name -notlike '.gitkeep' -and (Get-TaskId $_.FullName) -eq $TaskId } |
         Select-Object -First 1
 }
 
 function Commit-And-Push([string]$TaskId) {
-    Invoke-Git @('add', '--', 'runtime/task_queue', '00_老板驾驶舱/AI节点总览/V2_HEARTBEAT.md')
+    Invoke-Git @('add', '-A', '--', 'runtime/task_queue')
+    Invoke-Git @('add', '-u')
     & $git -c "safe.directory=$RepoPath" -C $RepoPath diff --cached --quiet
     if ($LASTEXITCODE -eq 0) { return }
     Invoke-Git @('commit', '-m', "Pick $TaskId on V2")
@@ -119,7 +132,7 @@ function Invoke-Scan {
         $destination = Join-Path $runningPath $task.Name
         Move-Item -LiteralPath $task.FullName -Destination $destination
         Update-Heartbeat $taskId
-        Write-ListenerLog "$taskId | CLAIMED | V2 AI研发协同中心 | moved to 03_执行中"
+        Write-ListenerLog "$taskId | CLAIMED | V2_NODE | moved to RUNNING"
         Commit-And-Push $taskId
         Write-Host "$taskId claimed; execution started"
         return
@@ -134,7 +147,13 @@ try {
     if (-not (Test-Path $runningPath)) { throw "running path missing: $runningPath" }
     $scan = 0
     while ($MaxScans -eq 0 -or $scan -lt $MaxScans) {
-        try { Invoke-Scan } catch { Write-ListenerLog ("ERROR | " + $_.Exception.Message); Write-Host ("error: " + $_.Exception.Message) }
+        try {
+            Invoke-Scan
+        } catch {
+            $message = $_.Exception.Message
+            Write-ListenerLog ("ERROR | " + $message)
+            Write-Host ("error: " + $message)
+        }
         $scan++
         if ($MaxScans -ne 0 -and $scan -ge $MaxScans) { break }
         Start-Sleep -Seconds $IntervalSeconds
