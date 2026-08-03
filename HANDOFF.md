@@ -848,3 +848,13 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 **Open questions:** V2设备、V0-V2同步方式、第一次低风险真实任务卡。
 
 **Next recommended step:** 停止新增制度，启动V2。让V2读取 `接入包_给GPT和Codex/V2正式启动入口文件.md`，输出《V2 AI研发协同中心启动确认》。
+
+### 2026-08-04 - 中央治理升级 Node Lifecycle / QA Gate
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已新增 Draft-013 Node Lifecycle 与 Draft-014 QA Gate，建立中央运行状态、AI节点状态、Node Score、Central QA Committee，并完成 Dispatcher MVP V0.1 派单记录、Trial-1 重新验收报告和治理升级同步记录。
+
+**Current truth:** 这些内容均为 Draft 或展示模块，真实节点生命周期验证仍需 V2 试运行数据支撑。
+
+**Next recommended step:** 保持 V2 启动与验证主线，等待 V2 领取 Trial-1 任务，不再扩展新治理体系。

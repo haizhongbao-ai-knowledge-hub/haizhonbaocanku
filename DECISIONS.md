@@ -367,3 +367,13 @@ Use this file to record important project decisions so GPT and Codex do not repe
 **Boundary:** 当前只确认文件层、规则层和验证框架完成。V2真实上线、持续Heartbeat、真实Dispatcher派单、双Codex协同和Task Builder自动化验证必须进入下一阶段实测，不得虚报完成。
 
 **Next recommended step:** 停止继续新增治理制度，进入V2启动与验证阶段。
+
+### 2026-08-04 - 中央治理升级 Node Lifecycle / QA Gate
+
+**Decision:** 春晓V0正式确认新增 Draft-013 Node Lifecycle 与 Draft-014 QA Gate，立即纳入中央治理体系，先以 Draft 形式进入待讨论规则。
+
+**Scope:** 新增中央运行状态、AI节点状态、Node Score、Central QA Committee，并将 Dispatcher MVP V0.1 结果纳入同步记录。
+
+**Boundary:** 当前只做治理文件化和驾驶舱展示，不影响 V2 启动与验证主线，不进入完整 AI Dispatcher 开发。
+
+**Next recommended step:** 等待 V0 对 Draft-013、Draft-014 后续确认，再决定是否升级为 Rule013、Rule014。
