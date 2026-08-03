@@ -4,6 +4,39 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-03 - V2 heartbeat and single task intake added
+
+**From:** Codex
+
+**Summary:** Added the V2 online heartbeat and single formal task intake layer to the existing P0 queue. This does not claim V2 is already truly online; it establishes the files, templates, and operating rules needed for P0-02 real launch.
+
+**Changed files:**
+
+- `00_老板驾驶舱/AI节点总览.md`
+- `00_老板驾驶舱/AI节点总览/V2_HEARTBEAT.md`
+- `00_老板驾驶舱/AI节点总览/V2启动状态报告模板.md`
+- `00_老板驾驶舱/V2每日状态摘要模板.md`
+- `00_海中宝AI治理总纲/07_运行制度/统一任务入口与推荐派单规则.md`
+- `00_海中宝AI治理总纲/07_运行制度/V3-V6统一上线模板.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_V2上线节点心跳与自动派单入口补充任务书_V1.0.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_V2上线阶段总执行清单_V1.0.md`
+- `00_老板驾驶舱/00_中央项目索引.md`
+- `00_老板驾驶舱/01_项目状态中心.md`
+- `00_老板驾驶舱/07_中央任务中心.md`
+- `00_老板驾驶舱/08_P0任务队列.md`
+- `TASKS.md`
+- `DECISIONS.md`
+- `HANDOFF.md`
+
+**Runtime directory added:**
+
+- `D:\海中宝AI协同中心\00_统一任务入口\待识别`
+- `D:\海中宝AI协同中心\00_统一任务入口\待补充`
+- `D:\海中宝AI协同中心\00_统一任务入口\已派单`
+- `D:\海中宝AI协同中心\00_统一任务入口\已关闭`
+
+**Next recommended step:** Start P0-02 real launch by choosing the V0-V2 sync method, then run one real task through the single intake directory and update V2_HEARTBEAT from the V2 device.
+
 ### 2026-08-03 - P0 task queue fixed
 
 **From:** Codex

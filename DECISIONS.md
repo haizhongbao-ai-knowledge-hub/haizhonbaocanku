@@ -69,6 +69,27 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `tasks/P0任务队列/海中宝AI中央大脑_AI任务智能调度中心建设任务书_V1.0.md`
 - `reviews/P0任务队列纳入完成报告_2026-08-03.md`
 
+### 2026-08-03 - Add V2 heartbeat and single task intake rule
+
+**Decision:** V2正式上线后，不只是第二个Codex节点，而是“AI研发协同中心”。V2必须通过Heartbeat持续同步当前任务、下一任务、负载、阻碍、Git状态、待V0审批和待V1资料。
+
+**Single intake:** V0确认后的正式文件只投递一次，进入 `D:\海中宝AI协同中心\00_统一任务入口\待识别`，由Dispatcher推荐分配给V0 Codex、V2 Codex、伟强V1或AI委员会。
+
+**Dispatch mode:** 初期采用“推荐派单 + V0确认”。连续10个真实任务稳定后，低风险任务才允许自动派单。
+
+**Expansion rule:** 后续V3-V6统一走：设备登记、中央入口、身份认证、岗位授权包、Execution Mode、节点上线确认、Dispatcher登记、Heartbeat上线、正式接任务。
+
+**Boundary:** 禁止创建第二套中央大脑；禁止多个Codex自由并发修改中央仓库；所有正式结果统一由V2归档GitHub。
+
+**Canonical files:**
+
+- `00_老板驾驶舱/AI节点总览.md`
+- `00_老板驾驶舱/AI节点总览/V2_HEARTBEAT.md`
+- `00_老板驾驶舱/AI节点总览/V2启动状态报告模板.md`
+- `00_老板驾驶舱/V2每日状态摘要模板.md`
+- `00_海中宝AI治理总纲/07_运行制度/统一任务入口与推荐派单规则.md`
+- `00_海中宝AI治理总纲/07_运行制度/V3-V6统一上线模板.md`
+
 ### 2026-07-26 - Use Markdown files as shared project memory
 
 **Decision:** Keep project goals, tasks, rules, and handoffs in versioned Markdown files.
