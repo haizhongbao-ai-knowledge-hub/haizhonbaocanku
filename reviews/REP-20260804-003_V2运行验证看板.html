@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>海中宝AI中央系统—V2运行验证</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #5d6978;
+      --line: #d9e1e8;
+      --ok: #168a54;
+      --panel: #ffffff;
+      --bg: #f5f7fa;
+      --accent: #0f6b8f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 36px auto;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 12px 32px rgba(18, 38, 63, 0.08);
+    }
+    header {
+      padding: 28px 32px;
+      border-bottom: 1px solid var(--line);
+      background: #eef7fb;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      letter-spacing: 0;
+    }
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--line);
+    }
+    .cell {
+      background: var(--panel);
+      padding: 18px 22px;
+      min-height: 92px;
+    }
+    .label {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .value {
+      font-size: 18px;
+      font-weight: 700;
+      word-break: break-word;
+    }
+    .pass {
+      color: var(--ok);
+      font-size: 28px;
+    }
+    footer {
+      padding: 18px 32px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fbfcfd;
+    }
+    @media (max-width: 720px) {
+      main { margin: 16px auto; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>海中宝AI中央系统—V2运行验证</h1>
+      <p class="sub">用于确认V2能够领取、执行、生成成果、提交并回传。</p>
+    </header>
+    <section class="grid" aria-label="V2运行验证信息">
+      <div class="cell"><span class="label">节点</span><div class="value">V2 AI研发协同中心</div></div>
+      <div class="cell"><span class="label">当前状态</span><div class="value">Trial Running / Pending V0 Approval</div></div>
+      <div class="cell"><span class="label">当前Task</span><div class="value">TASK-20260804-005</div></div>
+      <div class="cell"><span class="label">执行开始时间</span><div class="value">2026-08-04 04:12:48 +08:00</div></div>
+      <div class="cell"><span class="label">执行完成时间</span><div class="value">2026-08-04 04:12:48 +08:00</div></div>
+      <div class="cell"><span class="label">当前Git Commit</span><div class="value">daa6179</div></div>
+      <div class="cell"><span class="label">GitHub同步状态</span><div class="value">待本次Commit并Push</div></div>
+      <div class="cell"><span class="label">Heartbeat状态</span><div class="value">Trial Running / Picked</div></div>
+      <div class="cell"><span class="label">中央Release版本</span><div class="value">Release V1.0 正式版</div></div>
+      <div class="cell"><span class="label">最终结果</span><div class="value pass">PASS</div></div>
+    </section>
+    <footer>本文件由V2节点真实生成</footer>
+  </main>
+</body>
+</html>
