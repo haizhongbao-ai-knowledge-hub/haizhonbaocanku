@@ -357,3 +357,13 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `00_海中宝AI治理总纲/07_运行制度/AI中央同步规则V1.0.md`
 - `projects/AI委员会/AI角色身份卡/`
 - `projects/AI委员会/meetings/HZB-AI-COMMITTEE-TEST-001_海中宝AI中央大脑下一阶段建设规划/`
+
+### 2026-08-03 - AI中央宪法冻结与V2启动验证
+
+**Decision:** 春晓V0确认本轮制度设计阶段暂时结束，永久规则001-012正式生效，AI中央宪法进入冻结状态。
+
+**Scope:** 固化AI中央宪法V1.0正式版、规则生命周期、Constitution Guardian、Constitution Freeze，并建立V2上线验收、Dispatcher、双Codex、Task Builder、Heartbeat/Checkpoint/Recovery验证包。
+
+**Boundary:** 当前只确认文件层、规则层和验证框架完成。V2真实上线、持续Heartbeat、真实Dispatcher派单、双Codex协同和Task Builder自动化验证必须进入下一阶段实测，不得虚报完成。
+
+**Next recommended step:** 停止继续新增治理制度，进入V2启动与验证阶段。

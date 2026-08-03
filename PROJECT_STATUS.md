@@ -23,3 +23,11 @@
 [海中宝AI项目状态总览.md](./海中宝AI项目状态总览.md)
 
 禁止在本文件维护第二套状态内容。
+
+## 2026-08-03 - 宪法冻结与V2上线验证入口
+
+状态：文件层已完成，真实V2上线待执行。
+
+本轮新增AI中央宪法V1.0正式版、永久规则001-012、Constitution Guardian、Constitution Freeze、V2上线验收清单、Dispatcher/双Codex/Task Builder测试报告、Heartbeat/Checkpoint/Recovery机制说明、V2正式启动入口和操作说明。
+
+下一步：停止新增治理制度，进入V2启动与验证阶段。

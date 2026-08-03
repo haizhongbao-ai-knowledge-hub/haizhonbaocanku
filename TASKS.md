@@ -193,6 +193,20 @@
 - [x] 配置本项目 Git 用户名和邮箱
 - [x] 创建第一次 Git 提交
 - [x] 固定 Codex 任务入口为 `【固定】海中宝AI项目codex执行`
+- [x] 建立AI中央宪法V1.0正式版并冻结核心规则
+- [x] 固化永久规则001-012
+- [x] 建立规则生命周期、Constitution Guardian和Constitution Freeze
+- [x] 建立V2上线验收清单和V2上线验收报告
+- [x] 建立Dispatcher、双Codex、Task Builder测试报告
+- [x] 建立Heartbeat、Checkpoint、Recovery机制说明
+- [x] 建立V2正式启动入口文件和V2启动操作说明
+- [x] 建立宪法冻结V2上线与双Codex验证同步记录
+- [ ] V2真实设备上线并读取V2正式启动入口
+- [ ] 执行V2 Heartbeat持续更新实测
+- [ ] 执行Dispatcher真实派单测试
+- [ ] 执行双Codex协同冲突测试
+- [ ] 执行Task Builder真实任务卡测试
+- [ ] 连续10个真实低风险任务稳定验证
 
 ## Blocked
 
