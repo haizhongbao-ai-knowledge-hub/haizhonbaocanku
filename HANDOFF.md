@@ -924,3 +924,13 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 **Current truth:** 当前只是已派单，V2尚未领取，尚未执行，尚未进入待审批。
 
 **Next recommended step:** 等待 V2 领取 `TASK-20260804-004`，然后按任务要求只生成 `REP-20260804-002_V2第二次完整闭环验证报告.md`，不要新增第二个 Task。
+
+### 2026-08-04 - Task派单流程收口与提效完成
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已确认唯一正式任务入口为 `D:\海中宝AI协同中心\00_统一任务入口`，并将 `TASK-20260804-004` 移回正式入口 `02_已派单`。仓库内同名入口不存在，历史残影入口已清空删除。Dispatcher MVP职责收缩为扫描、移动、生成派单记录。
+
+**Current truth:** `TASK-20260804-004` 当前仍为已派单待V2领取，未重新生成、未重复派单、未代替V2执行。
+
+**Next recommended step:** V2领取 `TASK-20260804-004` 前，所有简单派单按5分钟流程执行。
