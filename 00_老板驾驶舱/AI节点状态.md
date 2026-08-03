@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | V0 | Production | 负责确认与审批 |
 | V1 | Pending | 财务与经营资料待进一步接入 |
-| V2 | Trial | 已派单待领取 Trial-1 任务 |
+| V2 | Pending Online / 已派单待领取 | 已派单待领取 Trial-1 任务，尚未真实进入Trial执行 |
 | V3 | Offline | 未上线 |
 | V4 | Offline | 未上线 |
 | V5 | Offline | 未上线 |

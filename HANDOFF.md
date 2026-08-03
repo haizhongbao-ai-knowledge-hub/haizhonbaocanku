@@ -4,6 +4,32 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-04 - 中央治理升级 Node Lifecycle / QA Gate
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已新增 Draft-013 Node Lifecycle 与 Draft-014 QA Gate，建立中央运行状态、AI节点状态、Node Score、Central QA Committee，并完成 Dispatcher MVP V0.1 派单记录、Trial-1 重新验收报告和治理升级同步记录。
+
+**Current truth:** 这些内容均为 Draft 或驾驶舱展示模块，真实节点生命周期验证仍需 V2 真实领取 Trial-1 任务并回传运行数据支撑。当前 V2 状态应统一理解为 `Pending Online / 已派单待领取`，不得写成已真实进入 Trial 执行。
+
+**Changed files:**
+
+- `00_海中宝AI治理总纲/01_AI宪法/待讨论规则.md`
+- `00_老板驾驶舱/00_中央项目索引.md`
+- `00_老板驾驶舱/01_项目状态中心.md`
+- `00_老板驾驶舱/中央运行状态.md`
+- `00_老板驾驶舱/AI节点状态.md`
+- `00_老板驾驶舱/Node_Score.md`
+- `00_老板驾驶舱/V2上线验证/Node_Lifecycle.md`
+- `00_老板驾驶舱/V2上线验证/QA_Gate.md`
+- `00_老板驾驶舱/V2上线验证/Central_QA_Committee.md`
+- `reviews/Dispatcher_MVP_完成报告_2026-08-04.md`
+- `reviews/Trial-1_重新验收报告_2026-08-04.md`
+- `reviews/中央治理升级_NodeLifecycle_QAGate_完成报告_2026-08-04.md`
+- `sync_records/三方同步确认记录/2026-08-04_中央治理升级_NodeLifecycle_QAGate.md`
+
+**Next recommended step:** 保持 V2 启动与验证主线，等待 V2 领取 Trial-1 任务，不再扩展新治理体系。
+
 ### 2026-08-03 - V2 heartbeat and single task intake added
 
 **From:** Codex
@@ -848,13 +874,3 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 **Open questions:** V2设备、V0-V2同步方式、第一次低风险真实任务卡。
 
 **Next recommended step:** 停止新增制度，启动V2。让V2读取 `接入包_给GPT和Codex/V2正式启动入口文件.md`，输出《V2 AI研发协同中心启动确认》。
-
-### 2026-08-04 - 中央治理升级 Node Lifecycle / QA Gate
-
-**From:** 春晓V0 / Codex
-
-**Summary:** 已新增 Draft-013 Node Lifecycle 与 Draft-014 QA Gate，建立中央运行状态、AI节点状态、Node Score、Central QA Committee，并完成 Dispatcher MVP V0.1 派单记录、Trial-1 重新验收报告和治理升级同步记录。
-
-**Current truth:** 这些内容均为 Draft 或展示模块，真实节点生命周期验证仍需 V2 试运行数据支撑。
-
-**Next recommended step:** 保持 V2 启动与验证主线，等待 V2 领取 Trial-1 任务，不再扩展新治理体系。
