@@ -4,6 +4,16 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-04 - Release V1.0整理与整体复盘完成
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已完成《Release V1.0整理与整体复盘》，并输出 `Release_V1.0正式版_2026-08-04.md`、`Release_Review_2026-08-04.md`、`Milestone-002_Readiness_Report_2026-08-04.md`。
+
+**Current truth:** 本次 Release 是整理和复盘，不新增治理制度，不建立第二套中央大脑，不自动领取新 Task。
+
+**Next recommended step:** 评估 Milestone-002 启动条件，再决定是否推进后续 P0 验证。
+
 ### 2026-08-04 - Trial-1 V0审批PASS并归档完成
 
 **From:** 春晓V0 / Codex
