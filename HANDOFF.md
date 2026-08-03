@@ -30,6 +30,16 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 **Next recommended step:** 保持 V2 启动与验证主线，等待 V2 领取 Trial-1 任务，不再扩展新治理体系。
 
+### 2026-08-04 - TASK-20260804-003 已生成并派单
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已生成 `TASK-20260804-003_[P0]_V2领取并执行首个正式任务.md`，并由 Dispatcher MVP V0.1 从 `00_待识别` 移动到 `02_已派单`。该任务要求 V2 Git Pull 后读取 `02_已派单`，领取 `TASK-20260803-001`，更新 Heartbeat 为 Trial Running，输出《V2真实上线状态报告》，更新 Project State 和 Task Center，最终移动到 `04_待审批` 等待V0审批。
+
+**Current truth:** 当前只是已派单，V2尚未领取，尚未执行，尚未进入待审批。
+
+**Next recommended step:** V2电脑执行 Git Pull，读取 `D:\海中宝AI协同中心\00_统一任务入口\02_已派单`，领取 `TASK-20260804-003`，并只执行 `TASK-20260803-001`。
+
 ### 2026-08-03 - V2 heartbeat and single task intake added
 
 **From:** Codex
