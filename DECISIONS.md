@@ -4,6 +4,24 @@ Use this file to record important project decisions so GPT and Codex do not repe
 
 ## Decision Log
 
+### 2026-08-03 - Upgrade central brain governance to V2.1
+
+**Decision:** 海中宝AI中央大脑进入V2.1治理升级，最高原则调整为“状态优先于知识、知识优先于讨论、讨论优先于开发、开发优先于执行”。
+
+**Scope:** 本轮不是新增AI，不开发APP，不开发插件，而是建立统一项目状态中心、AI委员会运行机制、AI资产管理、重复议题识别、窗口职责体系、中央状态机和中央知识治理规范。
+
+**Why:** 中央大脑文件数量已经增长，新GPT、新Codex、新电脑接入时需要更快识别当前状态，避免重复讨论、重复建文件和信息断层。
+
+**Impact:** 以后任何AI第一步必须读取 `00_老板驾驶舱/00_中央项目索引.md` 和 `00_老板驾驶舱/01_项目状态中心.md`，再读取相关知识库和历史决策。
+
+**Canonical files:**
+
+- `00_老板驾驶舱/00_中央项目索引.md`
+- `00_老板驾驶舱/01_项目状态中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/AI重复议题识别机制.md`
+- `00_海中宝AI治理总纲/07_运行制度/中央状态机_State_Engine规范.md`
+- `00_海中宝AI治理总纲/07_运行制度/中央知识治理规范V1.0.md`
+
 ### 2026-07-26 - Use Markdown files as shared project memory
 
 **Decision:** Keep project goals, tasks, rules, and handoffs in versioned Markdown files.
