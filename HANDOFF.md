@@ -4,6 +4,16 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-04 - 中央系统底层架构收口与效率重构完成
+
+**From:** 春晓V0 / Codex
+
+**Summary:** 已完成中央系统底层架构收口，统一了中央索引、项目状态入口、交接边界和正式任务入口说明；保留正在执行的 `TASK-20260804-004`，不覆盖、不删除历史事实，不启动新的治理层。
+
+**Current truth:** 当前唯一正式任务入口仍为 `D:\海中宝AI协同中心\00_统一任务入口`，当前唯一 P0 仍是 V2 Trial 线上的真实闭环验证，当前收口只做单源化和效率重构。
+
+**Next recommended step:** 等待春晓V0验收；若继续推进，只能基于现有唯一入口和唯一状态源，不新增第二套中央大脑。
+
 ### 2026-08-04 - Release V1.0整理与整体复盘完成
 
 **From:** 春晓V0 / Codex
