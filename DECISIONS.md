@@ -47,6 +47,28 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `knowledge-hub/finance/V1财务资料知识树_V1.0.md`
 - `reviews/V0-V2同步测试报告_2026-08-03.md`
 
+### 2026-08-03 - Fix P0 task execution queue
+
+**Decision:** 当前P0任务执行顺序固定为P0-01、P0-02、P0-03，不允许新任务打断正在执行的中央大脑治理主线。
+
+**Queue:**
+
+1. P0-01：完成中央大脑V2.1治理升级。
+2. P0-02：执行《V2接口与自动授权上线任务书 V1.1》，优先打通V0-V2同步、V2 Execution Mode、任务监听和结果回传。
+3. P0-03：执行《AI任务智能调度中心建设任务书 V1.0》，建立统一任务调度、任务锁、分支隔离和节点负载管理。
+
+**Important boundary:** P0-02和P0-03已纳入队列，但尚未直接启动。P0-03依赖P0-02至少完成V2接口基础上线。
+
+**Impact:** V2接口打通后，大型任务优先转移到V2；V0本机Codex转为快速执行席。所有正式结果统一进入GitHub中央仓库。
+
+**Canonical files:**
+
+- `00_老板驾驶舱/08_P0任务队列.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_P0任务排队执行清单.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_V2接口与自动授权上线任务书_V1.1.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_AI任务智能调度中心建设任务书_V1.0.md`
+- `reviews/P0任务队列纳入完成报告_2026-08-03.md`
+
 ### 2026-07-26 - Use Markdown files as shared project memory
 
 **Decision:** Keep project goals, tasks, rules, and handoffs in versioned Markdown files.

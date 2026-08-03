@@ -4,6 +4,35 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-03 - P0 task queue fixed
+
+**From:** Codex
+
+**Summary:** Added the new P0 task queue without interrupting the current central-brain V2.1 governance work. P0-02 and P0-03 are now queued, not started.
+
+**Fixed execution order:**
+
+1. P0-01: Finish central brain V2.1 governance upgrade.
+2. P0-02: Run V2 interface and automatic authorization launch.
+3. P0-03: Run AI task dispatcher center build.
+
+**Changed files:**
+
+- `00_老板驾驶舱/08_P0任务队列.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_P0任务排队执行清单.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_V2接口与自动授权上线任务书_V1.1.md`
+- `tasks/P0任务队列/海中宝AI中央大脑_AI任务智能调度中心建设任务书_V1.0.md`
+- `reviews/P0任务队列纳入完成报告_2026-08-03.md`
+- `sync_records/三方同步确认记录/2026-08-03_P0任务队列纳入.md`
+- `00_老板驾驶舱/00_中央项目索引.md`
+- `00_老板驾驶舱/01_项目状态中心.md`
+- `00_老板驾驶舱/07_中央任务中心.md`
+- `TASKS.md`
+- `DECISIONS.md`
+- `HANDOFF.md`
+
+**Next recommended step:** Start P0-02 only after confirming V2 device availability, V0-V2 sync method, and permission to create the task listener.
+
 ### 2026-08-03 - V0-V1-V2 collaboration chain stage A implemented
 
 **From:** Codex
