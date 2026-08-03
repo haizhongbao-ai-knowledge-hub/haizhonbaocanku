@@ -4,6 +4,37 @@ Use this file to pass context between ChatGPT, Codex, and different computers.
 
 ## Latest Handoff
 
+### 2026-08-03 - V0-V1-V2 collaboration chain stage A implemented
+
+**From:** Codex
+
+**Summary:** Implemented the first stage of 《海中宝AI中央大脑_V0-V1-V2高效协同与岗位接入升级任务书_V1.0》 without creating a second central brain. The work extends V2.1 governance into a practical collaboration chain: V0 sends official task cards, V2 registers and executes through the central task center, and approved results are archived to GitHub.
+
+**Changed files:**
+
+- `00_老板驾驶舱/07_中央任务中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/V0-V2协同工作协议.md`
+- `00_海中宝AI治理总纲/07_运行制度/中央接入协议_V3.0.md`
+- `接入包_给GPT和Codex/任务卡模板_V1.0.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V0老板岗位知识包.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V1财务与项目推进岗位知识包.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V2_AI研发协同中心岗位知识包.md`
+- `knowledge-hub/finance/V1财务资料知识树_V1.0.md`
+- `reviews/V0-V2同步测试报告_2026-08-03.md`
+- `00_老板驾驶舱/00_中央项目索引.md`
+- `00_老板驾驶舱/01_项目状态中心.md`
+- `TASKS.md`
+- `DECISIONS.md`
+- `HANDOFF.md`
+
+**Runtime directory created:**
+
+- `D:\海中宝AI协同中心`
+
+**Current limitation:** PC001 local collaboration directory is created, but cross-computer automatic sync is not proven yet. Need to choose company cloud drive, OneDrive, or LAN shared folder, then test V0 write -> V2 sees, and V2 return -> V0 sees.
+
+**Next recommended step:** Choose the V0-V2 sync method, then run a real cross-computer sync test with one task card.
+
 ### 2026-07-27 - Fixed visible project entry and current progress rule
 
 **From:** Codex

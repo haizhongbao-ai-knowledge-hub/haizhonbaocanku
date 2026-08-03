@@ -22,6 +22,31 @@ Use this file to record important project decisions so GPT and Codex do not repe
 - `00_海中宝AI治理总纲/07_运行制度/中央状态机_State_Engine规范.md`
 - `00_海中宝AI治理总纲/07_运行制度/中央知识治理规范V1.0.md`
 
+### 2026-08-03 - Adopt V0-V1-V2 collaboration chain
+
+**Decision:** 海中宝AI中央大脑采用V0-V1-V2高效协同链路，结构为“两层同步、一个归档”：中央协同收发区、中央任务中心、GitHub中央仓库。
+
+**Confirmed roles:**
+
+- 春晓V0：Owner和最终决策人，只负责决策、提问、审批和指挥。
+- 伟强V1：财务总监和AI项目推进负责人，负责资料组织、经营数据协调和财务复核。
+- V2 AI研发协同中心：Codex主执行、中央治理、GitHub维护、自动化开发和战略研究协同。
+
+**Important boundary:** V0不再承担U盘搬运、文件归档、目录维护和GitHub提交等低价值操作。同步目录不是正式知识库，审批后才进入GitHub正式归档。
+
+**Current implementation:** `D:\海中宝AI协同中心` 已在PC001建立本机目录结构；跨电脑自动同步需接入企业云盘、OneDrive或局域网共享后联测。
+
+**Canonical files:**
+
+- `00_老板驾驶舱/07_中央任务中心.md`
+- `00_海中宝AI治理总纲/07_运行制度/V0-V2协同工作协议.md`
+- `00_海中宝AI治理总纲/07_运行制度/中央接入协议_V3.0.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V0老板岗位知识包.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V1财务与项目推进岗位知识包.md`
+- `00_海中宝AI治理总纲/02_AI组织体系/V2_AI研发协同中心岗位知识包.md`
+- `knowledge-hub/finance/V1财务资料知识树_V1.0.md`
+- `reviews/V0-V2同步测试报告_2026-08-03.md`
+
 ### 2026-07-26 - Use Markdown files as shared project memory
 
 **Decision:** Keep project goals, tasks, rules, and handoffs in versioned Markdown files.
