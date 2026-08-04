@@ -40,3 +40,26 @@ Readiness: Partial
 ```
 
 可进入下一阶段准备，但不应把当前状态夸大成全面完成。
+
+## 六、V1冻结后的Milestone状态
+
+更新时间：2026-08-04
+
+Milestone-001：
+
+```text
+V1.0 设计与验证阶段：Frozen
+```
+
+Milestone-002：
+
+```text
+V2 稳定运营阶段：Transition / Pending V0 approval for TASK-20260804-006
+```
+
+进入Milestone-002正式启动前必须满足：
+
+1. `TASK-20260804-006` 完成V0审批。
+2. V2继续保持GitHub同步。
+3. V2不再依赖V0本地D盘任务入口。
+4. 任务闭环继续以中央仓库 `runtime/task_queue/` 为跨节点同步通道。
