@@ -1,0 +1,14 @@
+{
+  "name": "haizhongbao-v0-central-repo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node V0_PERSONAL_ASSISTANT/CONNECTOR/mcp_server.js",
+    "test": "node V0_PERSONAL_ASSISTANT/CONNECTOR/connector_test.js",
+    "test:mcp": "node V0_PERSONAL_ASSISTANT/CONNECTOR/mcp_server_test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

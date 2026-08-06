@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: v0-remote-mcp
+    env: node
+    plan: starter
+    autoDeploy: true
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    envVars:
+      - key: V0_MCP_BIND_HOST
+        value: 0.0.0.0
+      - key: V0_MCP_PORT
+        value: 10000
+      - key: V0_MCP_PROTOCOL_VERSION
+        value: 2025-11-25
+      - key: V0_MCP_LOG_DIR
+        value: runtime/mcp_logs
+      - key: V0_REPO_ROOT
+        value: /opt/render/project/src
